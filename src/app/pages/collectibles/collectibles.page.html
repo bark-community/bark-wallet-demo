@@ -1,0 +1,47 @@
+
+<ion-content [fullscreen]="true">
+  <page-header title="Collectibles"
+    description="Take a full tour into your NFTs holdings and enjoy rich feature and seamless environment to control them from one centralize location"></page-header>
+  <ion-grid>
+    <div  class="data-set ion-margin-bottom">
+      <table-head label="Manage your NFTs" desc="Unlock exclusive access to your NFTs with premium features from 1 spot"></table-head>
+    </div>
+    <div id="nft-gallery">
+
+      @for (nft of filterNft(); track $index) {
+          <nft-item 
+        
+        [class.checked]="checkNfts.checked" 
+        (click)="selectNft(checkNfts,$event)" 
+        [nft]="nft" />
+        <ion-checkbox 
+        mode="md" 
+        [value]="nft" 
+        #checkNfts 
+        class="nft-checkbox">
+        </ion-checkbox>
+
+
+ 
+
+      <!-- </ion-checkbox> -->
+      }@empty {
+
+      @if(nfts() === null){
+      <nft-item />
+      <nft-item />
+      <nft-item />
+      <nft-item />
+      <nft-item />
+      }@else {
+
+      No nft found
+      }
+      }
+    </div>
+    @if(bulkSelection().length > 0){
+
+      <feature-toast  [nfts]="bulkSelection()" @slideDownUp/>
+    }
+  </ion-grid>
+</ion-content>

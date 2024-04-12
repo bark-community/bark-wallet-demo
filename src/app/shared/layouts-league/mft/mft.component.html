@@ -1,0 +1,52 @@
+<table-head [label]="label" [desc]="desc"></table-head>
+
+<ion-row class="ion-align-items-center ">
+
+  @if(tableMenuOptions.length){
+    <div class="ion-margin-start ion-hide-lg-down"></div>
+  <ion-col >
+    <app-table-menu [menu]="tableMenuOptions" [currentTab]="tableMenuOptions[0]" (onSelectTab)="tabSelected($event)"/>
+  </ion-col>
+  }
+  @if(searchBoxEnable){
+    <ion-col size="3.9" sizeLg="auto">
+      <app-search-box (search)="searchItem($event)" [value]="searchTerm()" [placeholder]="'Search'" />
+    </ion-col>
+    <div class="ion-margin-end ion-hide-lg-down"></div>
+  }
+
+</ion-row>
+
+
+
+
+
+<div id="table-wrapper">
+  <ngx-table #table [id]="tableId" (event)="onRowClicked.emit($event)" [configuration]="configuration"
+    [data]="tableData()" [columns]="tableColumns()" [loadingTemplate]="loadingTemplate">
+  </ngx-table>
+  @if (configuration.paginationEnabled) {
+  <div id="table-controls">
+    <ion-button mode="md" fill="clear" (click)="previousPage()">
+      <ion-img src="/assets/icon/arrow-right.svg" style="transform: rotate(180deg);" />
+      <span class="ion-hide-md-down">
+        previous
+      </span>
+    </ion-button>
+    <ion-button mode="md" fill="clear" (click)="nextPage()">
+      <span class="ion-hide-md-down">
+        next
+      </span>
+      <ion-img src="/assets/icon/arrow-right.svg" />
+
+    </ion-button>
+  </div>
+  }
+</div>
+
+
+<ng-template #loadingTemplate>
+  <div>
+    <ion-spinner color="primary" name="crescent"></ion-spinner>
+  </div>
+</ng-template>

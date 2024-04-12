@@ -1,0 +1,60 @@
+
+.date{
+    width: 72px;
+    text-align: center;
+    div:nth-child(1) {
+        font-weight: 600;
+    }
+}
+.operation {
+    display: flex;
+    flex-direction: column;
+
+    .balance-change {
+        display: flex;
+        align-items: center;
+    }
+
+    ion-img {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .asset-value {
+        font-weight: 500;
+        margin-inline: 8px 4px;
+        color: var(--ion-color-success);
+
+        &.negative {
+            color: var(--ion-color-danger);
+        }
+    }
+}
+
+ion-chip {
+    font-size: 11px;
+    font-weight: 500;
+    border-radius: var(--radius-full, 1000px);
+    border: 1px solid #D5D9EB;
+    background: #F8F9FC;
+    padding: 2px 9px;
+    &.defi {
+        border: 1px solid #B2DDFF;
+        background: #EFF8FF;
+        color: rgba(23, 92, 211, 1);
+    }
+
+    &.native {
+        border: 1px solid #f3f4f6;
+        background: #FFF3FB;
+        color: var(--ion-color-primary); 
+
+    }
+}
+
+.tx-out {
+    display: flex;
+    justify-content: center;
+}

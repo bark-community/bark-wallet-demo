@@ -1,0 +1,253 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+@import 'inter-font.scss';
+/* Core CSS required for Ionic components to work properly */
+@import "@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "@ionic/angular/css/normalize.css";
+@import "@ionic/angular/css/structure.css";
+@import "@ionic/angular/css/typography.css";
+@import "@ionic/angular/css/display.css";
+
+/* Optional CSS utils that can be commented out */
+@import "@ionic/angular/css/padding.css";
+@import "@ionic/angular/css/float-elements.css";
+@import "@ionic/angular/css/text-alignment.css";
+@import "@ionic/angular/css/text-transformation.css";
+@import "@ionic/angular/css/flex-utils.css";
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 0;
+}
+
+::selection {
+    background: var(--ion-color-primary);
+    color: white;
+}
+ion-grid {
+    padding-block-start: 20px;
+    padding-block-end:66px ;
+    padding-inline: 3vw;
+    margin: 0;
+}
+
+ion-col {
+    margin: 0;
+    padding: 0;
+}
+
+ion-button {
+    --transition: 0.3s ease all;
+    padding: 0;
+    margin: 0;
+    border-radius: 8px;
+    --border-radius: 8px;
+    --box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+
+    &.button-disabled {
+        --background: #f4f4f5;
+        --color: var(--ion-color-primary);
+
+        opacity: 1;
+    }
+}
+
+ion-content,
+ion-header {
+    --background: #f3f4f6;
+    background: #f3f4f6;
+}
+.header-md{
+    background: #FFF;
+    box-shadow: none;
+}
+.backdrop-no-scroll ion-header{
+    z-index: 0;
+}
+.data-set {
+    border-radius: var(--radius-xl, 12px);
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.gap {
+    padding: 20px 32px;
+}
+
+#asset-modal {
+    --width: 100vw;
+    --height: 90vh;
+    align-items: flex-end;
+}
+
+#nft-toast {
+    --width: 100vw;
+    --height: 10vh;
+    align-items: flex-end;
+}
+
+.searchbar-input.sc-ion-searchbar-ios {
+    padding-inline-start: 35px !important;
+}
+
+
+ion-input {
+
+    overflow: hidden;
+    --color: #121926 !important;
+    --placeholder-color: #9ca3af !important;
+    text-overflow: ellipsis;
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 13px;
+    border-radius: var(--radius-md, 8px);
+    border: 1px solid var(--colors-border-border-primary, #6B7280);
+    background: var(--colors-background-bg-primary, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    --background: transparent;
+    --padding-start: 12px !important;
+    min-height: 0;
+    height: 40px;
+}
+
+
+.table-title {
+    color: var(--colors-text-text-primary-900, #030712);
+    // font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    text-transform: capitalize;
+    /* 175% */
+    letter-spacing: 0.16px;
+}
+
+.table-sub {
+    color: var(--gray-modern-500, #9ca3af);
+    text-overflow: ellipsis;
+    // font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 13px */
+}
+
+ion-spinner {
+    transform: scale(1.5);
+
+    &::before {
+        border: 3px solid rgba(238, 242, 246, 1);
+        content: "";
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 1px;
+        left: 1px;
+    }
+}
+
+
+.wallet-adapter-options {
+    --width: 480px;
+    --max-width: 95%;
+    --border-radius: 12px;
+    --overflow: auto;
+}
+
+.modal-style {
+    --width: 540px;
+    --border-radius: 12px;
+    --height: auto;
+    --max-width: 95%;
+    --max-height: 90%;
+    --overflow: auto;
+
+    >.ion-page {
+        position: static;
+        contain: initial;
+    }
+}
+
+.nft-modal {
+    --width: 884px;
+    --border-radius: 12px;
+    --max-width: 95%;
+    --max-height: 90%;
+}
+
+.swap-setting-modal {
+    --width: 340px;
+    --height: 300px;
+    --border-radius: 12px;
+}
+
+.wallet-connect-dropdown {
+    --width: 238px;
+    --box-shadow: 0 0 0;
+}
+
+.stake-positions-actions-popover {
+    --width: 260px;
+    --box-shadow: 0 0 0;
+    --background: transparent;
+}
+
+
+
+.toastStyle {
+    text-transform: capitalize;
+    --color: var(--ion-text-color);
+    --background: var(--notif-background);
+    --min-height: 50px;
+    --width: 310px;
+    --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    --border-radius: 4px;
+    font-size: 12px;
+    --border-width: 1px;
+    --border-style: solid;
+    --button-color: var(--ion-text-color);
+    --start: 1;
+    transform: translateX(-18px);
+
+    .toast-wrapper {
+        margin-bottom: 2%;
+    }
+
+    &.toastSuc {
+        --border-color: var(--ion-color-primary);
+        --button-color: var(--ion-color-primary);
+    }
+
+    &.toastError {
+        --border-color: #ef4444;
+        --button-color: #ef4444;
+    }
+
+    &.toastInfo {
+        --border-color: var(--ion-color-primary);
+        --button-color: var(--ion-text-color);
+        ;
+    }
+}

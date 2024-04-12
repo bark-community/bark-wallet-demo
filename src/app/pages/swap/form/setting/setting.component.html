@@ -1,0 +1,15 @@
+<div id="swap-setting">
+  <ion-button class="circle" (click)="reloadRoute.emit()" id="reload-route">
+  
+      <div class="wave"></div>
+   
+    <ion-img src="assets/images/refresh-icon.svg"/>
+  </ion-button>
+  <div id="route-configs">
+    <!-- <ion-button class="tx-fee-config">Turbo 🚀 </ion-button> -->
+    <ion-button class="slippage-config" (click)="openSlippageModal()">
+      <ion-img src="assets/images/group-icon.svg"/>
+     {{selectedSlippage() / 100}}% 
+    </ion-button>
+  </div>
+</div>

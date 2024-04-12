@@ -1,0 +1,19 @@
+@media only screen and (max-width: 992px) {
+    #net-worth{
+        border-radius: 12px 12px 0 0;
+    }
+    #portfolio-breakdown{
+        border-radius:  0 0 12px 12px;
+    }
+}
+
+#head-bg{
+    background-color: #f8fafc;
+    height: 161px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    width: 100%;
+}

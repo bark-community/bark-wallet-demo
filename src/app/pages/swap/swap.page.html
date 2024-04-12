@@ -1,0 +1,26 @@
+<ion-content [fullscreen]="true">
+  <!-- Page header component -->
+  <page-header
+    title="Swap"
+    description="Swap your assets for the best prices in a lightning-fast and zero-fee environment. <br/> Powered By Jupiter"
+  ></page-header>
+
+  <!-- Ionic grid container -->
+  <ion-grid>
+
+    <!-- Row containing the swap form -->
+    <ion-row style="padding-inline: 2vw; transform: translateY(-70px);" class="ion-justify-content-center">
+      <swap-form></swap-form>
+    </ion-row>
+
+    <!-- Row containing transactions history table (commented out) -->
+    <!--
+    <ion-row style="padding-inline: 5vw;">
+      <ion-col size="12" class="data-set">
+        <app-transactions-history-table [tableData]="tradeHistoryTable"></app-transactions-history-table>
+      </ion-col>
+    </ion-row>
+    -->
+
+  </ion-grid>
+</ion-content>

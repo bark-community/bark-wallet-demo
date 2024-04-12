@@ -1,0 +1,7 @@
+{
+  "name": "BarkWallet",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

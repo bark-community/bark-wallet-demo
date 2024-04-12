@@ -1,0 +1,38 @@
+{
+  "typescript.preferences.autoImportFileExcludePatterns": [
+    "@ionic/angular/common",
+    "@ionic/angular"
+  ],
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#111827",
+    "activityBar.background": "#111827",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#25320e",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#111827",
+    "statusBar.background": "#4b5563",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#111827",
+    "statusBarItem.remoteBackground": "#4b5563",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#4b5563",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#4b556399",
+    "titleBar.inactiveForeground": "#e7e7e799",
+    "peekView.border": "#D1D5DB", 
+    "peekViewEditor.background": "#F9FAFB", 
+    "peekViewEditor.matchHighlightBackground": "#FFD33D33", 
+    "peekViewResult.background": "#F9FAFB", 
+    "peekViewResult.fileForeground": "#6B7280", 
+    "peekViewResult.lineForeground": "#9CA3AF", 
+    "peekViewResult.matchHighlightBackground": "#FFD33D33", 
+    "peekViewResult.selectionBackground": "#3399FF33", 
+    "peekViewResult.selectionForeground": "#6B7280", 
+    "peekViewTitle.background": "#D1D5DB", 
+    "peekViewTitleDescription.foreground": "#6B7280", 
+    "peekViewTitleLabel.foreground": "#111827"
+  },
+  "peacock.color": "#4b5563"
+}

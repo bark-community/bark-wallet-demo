@@ -1,0 +1,41 @@
+
+<div class="nft">
+  <div class="nft-img-wrapper">
+    @if(nft?.image_uri){
+      <ion-img (ionImgDidLoad)="loadImage()" (ionError)="img.src = 'assets/images/unknown.svg'" #img [src]="nft?.image_uri" />
+    }
+    @if (!imagesLoaded) {
+      <ion-skeleton-text [animated]="true" />
+    }
+  </div>
+  <div class="nft-body">
+    <ion-text>
+      @if (nft?.name) {
+      {{nft?.name}}
+      }@else{
+      <ion-skeleton-text style="width: 50%;" [animated]="true" />
+      }
+    </ion-text>
+    <div>
+
+<span></span>
+      <!-- <div class="floor-price">
+        @if (nft?.data?.price) {
+        {{nft?.data?.price}}
+        }@else{
+        <ion-skeleton-text style="width: 100%;" [animated]="true" />
+        }
+
+        32 SOL
+      </div> -->
+      <!-- <ion-text>
+
+    </ion-text> -->
+    <ion-button value="modal-btn" (click)="openNftPreview()" fill="clear">
+      <ion-icon  name="ellipsis-horizontal" />
+    </ion-button>
+    </div>
+  </div>
+  
+</div>
+

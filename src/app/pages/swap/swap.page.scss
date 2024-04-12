@@ -1,0 +1,59 @@
+// Global styles for ion-content
+ion-content {
+    --ion-background-color: #f9fafb; // Set background color
+  }
+  
+  // Style adjustments for page-header
+  page-header {
+    margin-bottom: 20px; // Add margin below the page-header
+    font-size: 1.5rem; // Increase font size for better readability
+    font-weight: bold; // Make the title bold
+  }
+  
+  // Styling for swap-form
+  .swap-form {
+    padding: 0 2vw; // Add horizontal padding
+    transform: translateY(-10px); // Adjust vertical positioning
+  }
+  
+  // Hover effect for swap button
+  .swap-button {
+    cursor: pointer; // Change cursor to pointer on hover
+    transition: background-color 0.3s ease; // Smooth transition for background color change
+  }
+  
+  .swap-button:hover {
+    background-color: #ab307e; // Change background color on hover
+    color: white; // Change text color on hover for better contrast
+  }
+  
+  // Styling for transactions history table
+  .transactions-history-table {
+    padding: 0 5vw; // Add padding to the table
+  }
+  
+  .transactions-history-table ion-row {
+    border-bottom: 1px solid #ccc; // Add border between rows for clarity
+  }
+  
+  .transactions-history-table ion-row:last-child {
+    border-bottom: none; // Remove border from the last row to avoid extra line
+  }
+  
+  // Styling for invalid address message
+  .invalid-address {
+    color: #ff0000; // Set color to red for emphasis
+    font-style: italic; // Make the text italic for differentiation
+  }
+  
+  // Mobile optimization
+  @media (max-width: 768px) {
+    // Adjustments for smaller screens
+    .swap-form {
+      padding: 0 1.5vw; // Reduce horizontal padding
+      transform: translateY(0); // Reset vertical positioning
+    }
+    
+    // Additional mobile optimizations can be added here...
+  }
+  

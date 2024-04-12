@@ -1,0 +1,75 @@
+:host {
+    display: block;
+}
+
+.nft-img-wrapper {
+    position: relative;
+    width: 100%;
+    max-height: 30vh;
+    overflow: hidden;
+    ion-img,
+    ion-skeleton-text {
+        width: 100%;
+        overflow: hidden;
+        object-fit: cover;
+        aspect-ratio: 1/1;
+    }
+
+    ion-skeleton-text {
+        // position: absolute;
+        top: 0;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+
+
+
+.nft-body {
+    border-top: 1px solid var(--Colors-Border-border-secondary, #E3E8EF);
+    background: #FFF;
+    padding: 12px;
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+ion-button{
+    --box-shadow: transparent;
+    --background-hover: transparent;
+    --ripple-color: transparent;
+    --padding-end: 0;
+    --padding-start: 0;
+}
+ion-text {
+    /* width: 212px; */
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #121926;
+    font-size: 14px;
+    font-weight: 600;
+    margin-block-end: 8px;
+
+}
+
+.floor-price {
+    text-align: center;
+    // min-width: 75px;
+    padding: 4px;
+    border-radius: 6px;
+    color: #364152;
+    border: 1px solid #E3E8EF;
+    background: #F8FAFC;
+    height: 20px;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 16px;
+
+}
+ion-icon {
+    color: #9ca3af;
+}

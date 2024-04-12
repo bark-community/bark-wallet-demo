@@ -1,0 +1,17 @@
+<div id="token-wrapper">
+  <div id="token-info">
+    <div id="token-img">
+      <ion-img [src]="token.imgUrl"></ion-img>
+    </div>
+    <div id="token-name-and-price">
+      <div id="price">{{token.price}}</div>
+      <div id="name">{{token.name}}</div>
+    </div>
+  </div>
+  <div id="token-price-movement">
+    {{price_change_24h | number: '1.1-2'}}%
+  </div>
+</div>
+<div id="token-chart">
+  <app-price-chart type="full" (onPriceChangePercentage)="price_change_24h = $event" [token]="token"/>
+</div>

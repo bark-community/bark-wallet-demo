@@ -1,0 +1,8 @@
+<div style="margin: 0 auto;" 
+[ngStyle]="{
+  'height': type === 'full' ? '207px' : '60px',
+  'width': type === 'full' ? '100%' : '150px',
+  }">
+  <canvas  [id]="type === 'full' ? 'price-chart' : ''"  #breakdownChart></canvas>
+</div>
+

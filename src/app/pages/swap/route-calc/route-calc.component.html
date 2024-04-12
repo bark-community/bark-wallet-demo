@@ -1,0 +1,26 @@
+<div id="summary">Swap Summary</div>
+<div id="route-wrapper">
+  <div class="route-calc">
+    <div>Price Impact</div>
+    <span [ngStyle]="{
+      'color': routeInfo.priceImpactPct < '0.02' ? 'var(--ion-color-success)' : 'red'
+      }">
+      ~ {{routeInfo.priceImpactPct | percent:'1.0-4'}}</span>
+  </div>
+  <div class="route-calc">
+    <div>Minimum Received</div>
+    <span>{{routeInfo.otherAmountThreshold | number: '1.4'}}</span>
+  </div>
+  <div class="route-calc">
+    <div>transaction fee</div>
+    <span>{{0.000005 | number: '1.6'}} SOL</span>
+  </div>
+  <div class="route-calc">
+    <div>priority fees</div>
+    <span>{{fees | number: '1.6'}} SOL</span>
+  </div>
+  <div class="route-calc">
+    <div>assets contract</div>
+    <span><a target="_blank" [href]="utils.explorer + '/token/' +routeInfo.inputMint">{{utils.addrUtil(routeInfo.inputMint).addrShort}}</a><ion-icon name="swap-horizontal-outline"></ion-icon><a target="_blank" [href]="utils.explorer + '/token/' +routeInfo.outputMint">{{utils.addrUtil(routeInfo.outputMint).addrShort}}</a></span>
+  </div>
+</div>

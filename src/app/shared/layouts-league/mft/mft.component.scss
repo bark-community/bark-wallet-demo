@@ -1,0 +1,15 @@
+@import './table.scss';
+:host{
+    width: 100%;
+}
+
+#search-box-wrapper{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+ion-img{
+    margin-inline:6px ;
+}
+

@@ -1,0 +1,1989 @@
+{
+  "version": "6.0",
+  "nxVersion": "18.2.4",
+  "deps": {
+    "@angular/animations": "^17.3.4",
+    "@angular/cdk": "^17.3.4",
+    "@angular/common": "^17.3.4",
+    "@angular/compiler": "^17.3.4",
+    "@angular/core": "^17.3.4",
+    "@angular/forms": "^17.3.4",
+    "@angular/platform-browser": "^17.3.4",
+    "@angular/platform-browser-dynamic": "^17.3.4",
+    "@angular/router": "^17.3.4",
+    "@capacitor/app": "5.0.6",
+    "@capacitor/core": "5.7.4",
+    "@capacitor/haptics": "5.0.7",
+    "@capacitor/keyboard": "5.0.8",
+    "@capacitor/status-bar": "5.0.7",
+    "@coral-xyz/anchor": "^0.29.0",
+    "@heavy-duty/wallet-adapter": "^0.8.4",
+    "@ionic/angular": "^7.8.4",
+    "@jup-ag/wallet-adapter": "^0.1.5",
+    "@lordicon/element": "^1.6.0",
+    "@marinade.finance/marinade-ts-sdk": "^5.0.11",
+    "@ngrx/component-store": "^17.2.0",
+    "@solana/spl-stake-pool": "^1.1.0",
+    "@solana/spl-token": "0.4.3",
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/wallet-adapter-wallets": "0.19.32",
+    "@solana/web3.js": "1.91.1",
+    "@sonarwatch/portfolio-core": "^0.11.173",
+    "@vercel/analytics": "^1.2.2",
+    "chart.js": "^4.4.2",
+    "ionicons": "^7.3.1",
+    "lottie-web": "^5.12.2",
+    "ngx-easy-table": "^15.5.0",
+    "ngx-turnstile": "^0.2.1",
+    "rxjs": "~7.8.1",
+    "tslib": "^2.6.2",
+    "zone.js": "~0.14.4",
+    "@angular-builders/custom-webpack": "^17.0.2",
+    "@angular-devkit/build-angular": "^17.3.4",
+    "@angular-eslint/builder": "^17.3.0",
+    "@angular-eslint/eslint-plugin": "^17.3.0",
+    "@angular-eslint/eslint-plugin-template": "^17.3.0",
+    "@angular-eslint/schematics": "^17.3.0",
+    "@angular-eslint/template-parser": "^17.3.0",
+    "@angular/cli": "^17.3.4",
+    "@angular/compiler-cli": "^17.3.4",
+    "@angular/language-service": "^17.3.4",
+    "@capacitor/cli": "5.7.4",
+    "@ionic/angular-toolkit": "^11.0.1",
+    "@types/jasmine": "~5.1.4",
+    "@types/readable-stream": "^4.0.11",
+    "@typescript-eslint/eslint-plugin": "^7.6.0",
+    "@typescript-eslint/parser": "^7.6.0",
+    "eslint": "^9.0.0",
+    "eslint-plugin-import": "2.29.1",
+    "eslint-plugin-jsdoc": "48.2.3",
+    "eslint-plugin-prefer-arrow": "1.2.3",
+    "jasmine-core": "~5.1.2",
+    "jasmine-spec-reporter": "~7.0.0",
+    "karma": "~6.4.3",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.1",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.4.5"
+  },
+  "pathMappings": {
+    "crypto": [
+      "node_modules/crypto-browserify"
+    ],
+    "stream": [
+      "node_modules/stream-browserify"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "src/app/shared/layouts/settings/settings.component.html",
+        "hash": "9094275570989790496"
+      },
+      {
+        "file": "src/app/shared/layouts/wallet/wallet-adapter-options/wallet-adapter-options.component.spec.ts",
+        "hash": "17106961447536855160"
+      },
+      {
+        "file": "src/app/pages/overview/net-worth/net-worth.component.spec.ts",
+        "hash": "16998760428418573899"
+      },
+      {
+        "file": "src/app/pages/collectibles/list-nft-modal/list-nft-modal.component.ts",
+        "hash": "9477750318452582227"
+      },
+      {
+        "file": "src/assets/images/battery-3-icon.svg",
+        "hash": "3321820880101401764"
+      },
+      {
+        "file": "src/app/shared/components/amount-input/amount-input.component.spec.ts",
+        "hash": "5435878340753958479"
+      },
+      {
+        "file": "src/app/pages/overview/assets-table/assets-table.component.ts",
+        "hash": "11337732587802880401"
+      },
+      {
+        "file": "src/app/pages/swap/swap.page.ts",
+        "hash": "5046798004569066548"
+      },
+      {
+        "file": "src/app/pages/staking/form/lock-stake/lock-stake.component.spec.ts",
+        "hash": "15088932430975737075"
+      },
+      {
+        "file": "src/app/shared/layouts/mft/table-head/table-head.component.ts",
+        "hash": "17453599031215053346"
+      },
+      {
+        "file": "src/app/models/analytics.model.ts",
+        "hash": "16141351290916009775"
+      },
+      {
+        "file": "src/app/pages/dao/dao.page.scss",
+        "hash": "10020009992082165124"
+      },
+      {
+        "file": "src/app/pages/swap/route-calc/route-calc.component.html",
+        "hash": "5233594437632135775"
+      },
+      {
+        "file": "src/app/shared/layouts/mft/sort-popover/sort-popover.component.scss",
+        "hash": "1008188774890096278"
+      },
+      {
+        "file": "src/app/pages/collectibles/nft-modal-item/nft-modal-item.component.html",
+        "hash": "1650351064955820095"
+      },
+      {
+        "file": "src/app/pages/overview/assets-table/asset-modal/price-data/price-data.component.scss",
+        "hash": "13461476887218896717"
+      },
+      {
+        "file": "src/app/pages/loyalty-league/points-stats/points-stats.component.spec.ts",
+        "hash": "53922799133897212"
+      },
+      {
+        "file": "src/app/pages/loyalty-league/member-stats/member-stats.component.html",
+        "hash": "13862384347323471843"
+      },
+      {
+        "file": "src/app/pages/dao/dao-group/dao-group.component.scss",
+        "hash": "13958588175690728317"
+      },
+      {
+        "file": "src/app/app.component.ts",
+        "hash": "1510736775664944178"
+      },
+      {
+        "file": "src/assets/images/solana-compass.webp",
+        "hash": "11552633456163543395"
+      },
+      {
+        "file": "src/app/pages/overview/assets-table/asset-modal/price-chart/price-chart.component.spec.ts",
+        "hash": "7514965098246013891"
+      },
+      {
+        "file": "src/assets/images/info-icon.svg",
+        "hash": "17052125087711501372"
+      },
+      {
+        "file": "src/assets/icon/apple-icon-60x60.png",
+        "hash": "6130541758576489295"
+      },
+      {
+        "file": "src/assets/icon/apple-icon-72x72.png",
+        "hash": "14377266840809855846"
+      },
+      {
+        "file": "src/app/pages/loyalty/pool-stats/pool-stats.component.ts",
+        "hash": "774863565657746951"
+      },
+      {
+        "file": "src/app/pages/overview/portfolio-breakdown/portfolio-breakdown.component.scss",
+        "hash": "532165776648348184"
+      },
+      {
+        "file": "src/assets/icon/manifest.json",
+        "hash": "14140552017373981956"
+      },
+      {
+        "file": "src/app/shared/components/input-label/input-label.component.html",
+        "hash": "1909053642564278537"
+      },
+      {
+        "file": "src/app/pages/staking/positions/stake/split-modal/split-modal.component.scss",
+        "hash": "5076405808195746976"
+      },
+      {
+        "file": "src/app/shared/guards/is-connected.guard.spec.ts",
+        "hash": "1543409412512706090"
+      },
+      {
+        "file": "src/app/pages/collectibles/burn-nft-modal/burn-nft-modal.component.html",
+        "hash": "17274886700587812273"
+      },
+      {
+        "file": "src/app/shared/layouts/mft/table.scss",
+        "hash": "16624486436768016442"
+      },
+      {
+        "file": "src/app/pages/staking/staking.page.ts",
+        "hash": "2340944512369442561"
+      },
+      {
+        "file": "src/environments/environment.ts",
+        "hash": "14858898784277100375"
+      },
+      {
+        "file": "src/app/pages/dao/dao-group/proposal-popup/proposal-popup.component.scss",
+        "hash": "5009953468061647716"
+      },
+      {
+        "file": "src/app/pages/loyalty-league/loyalty-league.page.spec.ts",
+        "hash": "12867175104857764299"
+      },
+      {
+        "file": "src/app/shared/layouts/wallet/wallet-adapter-options/wallet-adapter-options.component.html",
+        "hash": "14300138664180975878"
+      },
+      {
+        "file": "src/app/pages/overview/assets-table/asset-modal/price-data/price-data.component.ts",
+        "hash": "16948312331908952723"
+      },
+      {
+        "file": "src/app/shared/layouts/mft/mft.component.spec.ts",
+        "hash": "8717608002327944929"
+      },
+      {
+        "file": "src/assets/images/lock-icon.svg",
+        "hash": "17835085634440973950"
+      },
+      {
+        "file": "src/app/shared/directives/skelaton-ph.directive.ts",
+        "hash": "14099386351936018182"
+      },
+      {
+        "file": "src/app/pages/swap/form/input/input.component.scss",
+        "hash": "12826681295913983035"
+      },
+      {
+        "file": "src/assets/images/mnde-native-logo.png",
+        "hash": "15378139701391284809"
+      },
+      {
+        "file": "src/app/pages/dao/dao-group/dao-group.component.spec.ts",
+        "hash": "15314253049518686117"
+      },
+      {
+        "file": "src/app/services/session-storage.service.ts",
+        "hash": "3148701373223113959"
+      },
+      {
+        "file": "src/app/services/realms/account.ts",
+        "hash": "16804255368789636559"
+      },
+      {
+        "file": "src/app/pages/staking/positions/stake/transfer-auth-modal/transfer-auth-modal.component.html",
+        "hash": "17265567112461771772"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "9229314680348739926"
+      },
+      {
+        "file": "src/app/pages/staking/form/stake-path/stake-path.component.scss",
+        "hash": "5605585195201891136"
+      },
+      {
+        "file": "src/assets/icon/android-icon-192x192.png",
+        "hash": "3113780613213544147"
+      },
+      {
+        "file": "src/app/shared/components/animated-icon/animated-icon.component.html",
+        "hash": "17011513022328895539"
+      },
+      {
+        "file": "src/assets/images/merge-icon.svg",
+        "hash": "17030871562648402523"
+      },
+      {
+        "file": "src/app/pages/staking/form/form.component.html",
+        "hash": "15793531841517842744"
+      },
+      {
+        "file": "src/app/pages/dao/dao-group/proposal-preview/proposal-preview.component.html",
+        "hash": "1430602727387369379"
+      },
+      {
+        "file": "src/app/pages/swap/form/setting/slippage-modal/slippage-modal.component.scss",
+        "hash": "12742985607636236031"
+      },
+      {
+        "file": "src/app/pages/staking/positions/stake/stake.component.scss",
+        "hash": "15885994876407144505"
+      },
+      {
+        "file": "src/assets/images/unknown.svg",
+        "hash": "3956472375587056843"
+      },
+      {
+        "file": "src/app/pages/loyalty-league/member-stats/member-stats.component.scss",
+        "hash": "14750874733056237842"
+      },
+      {
+        "file": "karma.conf.js",
+        "hash": "13719387092471133633"
+      },
+      {
+        "file": "src/assets/icon/apple-icon-144x144.png",
+        "hash": "17827095801875782640"
+      },
+      {
+        "file": "src/app/pages/collectibles/nft-preview/nft-preview.component.html",
+        "hash": "16174904710562071303"
+      },
+      {
+        "file": "tsconfig.app.json",
+        "hash": "9041030522571917449"
+      },
+      {
+        "file": "src/app/pages/overview/assets-table/asset-modal/price-data/price-data.component.spec.ts",
+        "hash": "8300268306271434975"
+      },
+      {
+        "file": "README.md",
+        "hash": "15667932384212470823"
+      },
+      {
+        "file": "src/assets/icon/arrow-narrow-up.svg",
+        "hash": "7130716460401579017"
+      },
+      {
+        "file": "src/app/shared/layouts/wallet/wallet-connected-dropdown/wallet-connected-dropdown.component.ts",
+        "hash": "8202585645848958112"
+      },
+      {
+        "file": "src/app/shared/components/search-box/search-box.component.ts",
+        "hash": "7381684344584209607"
+      },
+      {
+        "file": "src/app/pages/pools/pools.page.html",
+        "hash": "7617040230146417394"
+      },
+      {
+        "file": "src/app/pages/staking/positions/stake/unstake-lst-modal/unstake-lst-modal.component.scss",
+        "hash": "1301100148166428486"
+      },
+      {
+        "file": "src/environments/environment.prod.ts",
+        "hash": "14858898784277100375"
+      },
+      {
+        "file": "src/app/shared/pipes/filter.pipe.ts",
+        "hash": "7283111196366084755"
+      },
+      {
+        "file": "src/app/pages/collectibles/list-nft-modal/list-nft-modal.component.html",
+        "hash": "4223541137037013498"
+      },
+      {
+        "file": "src/app/pages/staking/form/stake-path/stake-path.component.ts",
+        "hash": "14241372526441889842"
+      },
+      {
+        "file": "src/app/pages/overview/assets-table/asset-modal/action-box/action-box.component.spec.ts",
+        "hash": "8233178521849699441"
+      },
+      {
+        "file": "src/app/shared/components/transactions-history-table/transactions-history-table.component.scss",
+        "hash": "850694296531584004"
+      },
+      {
+        "file": "src/app/pages/collectibles/burn-nft-modal/burn-nft-modal.component.scss",
+        "hash": "9979681526301203303"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "3721372704091044696"
+      },
+      {
+        "file": "src/app/pages/collectibles/collectibles.page.scss",
+        "hash": "15259353312897622361"
+      },
+      {
+        "file": "src/app/pages/swap/token-list/token-list.component.scss",
+        "hash": "10607098656868009134"
+      },
+      {
+        "file": "src/app/shared/components/search-box/search-box.component.scss",
+        "hash": "1722148848462048167"
+      },
+      {
+        "file": "src/app/pages/staking/positions/stake/instant-unstake-modal/instant-unstake-modal.component.ts",
+        "hash": "11823257259138409568"
+      },
+      {
+        "file": "src/assets/images/list-icon.svg",
+        "hash": "7104969566706532165"
+      },
+      {
+        "file": "src/assets/images/ll-top-img.svg",
+        "hash": "2847191942094363847"
+      },
+      {
+        "file": "src/app/pages/dao/dao-group/proposal-preview/proposal-preview.component.scss",
+        "hash": "13212869387301454581"
+      },
+      {
+        "file": "src/app/pages/overview/net-worth/net-worth.component.ts",
+        "hash": "10280709097818358800"
+      },
+      {
+        "file": "src/app/shared/components/page-header/page-header.component.html",
+        "hash": "13006547067612600669"
+      },
+      {
+        "file": "src/app/shared/layouts/mft/table-menu/table-menu.component.html",
+        "hash": "8048745788525706023"
+      },
+      {
+        "file": "src/app/pages/overview/assets-table/asset-modal/price-data/price-data.component.html",
+        "hash": "361243000946143959"
+      },
+      {
+        "file": "src/app/pages/loyalty-league/loyalty-league.page.scss",
+        "hash": "13446544215482799720"
+      },
+      {
+        "file": "src/app/shared/components/page-header/page-header.component.ts",
+        "hash": "11390673396556879051"
+      },
+      {
+        "file": "src/app/pages/loyalty-league/pool-stats/pool-stats.component.ts",
+        "hash": "893524233564107862"
+      },
+      {
+        "file": "src/assets/icon/apple-icon-152x152.png",
+        "hash": "2907943404003473372"
+      },
+      {
+        "file": "src/app/pages/lending/lending.page.html",
+        "hash": "3281524327345662711"
+      },
+      {
+        "file": "src/assets/icon/arrow-right.svg",
+        "hash": "9649769146611283050"
+      },
+      {
+        "file": "src/assets/images/wallet-icon.svg",
+        "hash": "6076938813191644516"
+      },
+      {
+        "file": "src/app/shared/components/address-input/address-input.component.scss",
+        "hash": "2463176802701954320"
+      },
+      {
+        "file": "src/app/pages/staking/form/apy-calc/apy-calc.component.ts",
+        "hash": "18277084016263853075"
+      },
+      {
+        "file": "ionic.config.json",
+        "hash": "11962084924599050531"
+      },
+      {
+        "file": "src/assets/images/mnde-small.webp",
+        "hash": "6084326774825028768"
+      },
+      {
+        "file": "src/app/services/solana-helpers.service.ts",
+        "hash": "14821644633887825345"
+      },
+      {
+        "file": "src/assets/images/solanahub-logo.png",
+        "hash": "6207171876284834703"
+      },
+      {
+        "file": "src/app/services/nfts.service.ts",
+        "hash": "4784188679405522381"
+      },
+      {
+        "file": "src/app/pages/collectibles/send-nft-modal/send-nft-modal.component.scss",
+        "hash": "2225675927413970699"
+      },
+      {
+        "file": "src/app/shared/components/modal/modal.component.html",
+        "hash": "5808239449583262822"
+      },
+      {
+        "file": "src/app/shared/layouts/tooltip/tooltip.component.ts",
+        "hash": "4898949314403740335"
+      },
+      {
+        "file": "src/app/models/trsanction-history.model.ts",
+        "hash": "11362979226743423249"
+      },
+      {
+        "file": "src/app/pages/liquidity-pools/liquidity-pools.page.ts",
+        "hash": "15377369519109669056"
+      },
+      {
+        "file": "src/app/shared/components/address-input/address-input.component.html",
+        "hash": "6717108050301127380"
+      },
+      {
+        "file": "src/assets/images/hubSOL.png",
+        "hash": "6776029402311948826"
+      },
+      {
+        "file": "src/app/pages/staking/staking.page.scss",
+        "hash": "18373735804039095142"
+      },
+      {
+        "file": "src/app/pages/staking/positions/stake/split-modal/split-modal.component.html",
+        "hash": "9097495460529667665"
+      },
+      {
+        "file": "src/app/shared/pipes/solconverter.pipe.ts",
+        "hash": "1728451724213245741"
+      },
+      {
+        "file": "src/assets/images/hubsol-small.webp",
+        "hash": "6229321816874765139"
+      },
+      {
+        "file": "src/app/shared/components/menu/menu.component.scss",
+        "hash": "18361373013666203641"
+      },
+      {
+        "file": "src/app/shared/layouts/wallet/wallet-connected-dropdown/wallet-connected-dropdown.component.spec.ts",
+        "hash": "2425603898062102906"
+      },
+      {
+        "file": "src/assets/fonts/Inter/Inter-Bold.ttf",
+        "hash": "2915947430692943411"
+      },
+      {
+        "file": "src/app/pages/collectibles/nft-modal-item/nft-modal-item.component.ts",
+        "hash": "11173445015207391826"
+      },
+      {
+        "file": "src/app/services/api.service.ts",
+        "hash": "17736454111594981385"
+      },
+      {
+        "file": "src/app/models/toastData.model.ts",
+        "hash": "1906631885170499659"
+      },
+      {
+        "file": "src/app/pages/staking/positions/stake/options-popover/options-popover.component.scss",
+        "hash": "13639777932911255378"
+      },
+      {
+        "file": "src/app/pages/dao/dao.page.ts",
+        "hash": "9800158549631741825"
+      },
+      {
+        "file": "src/app/shared/layouts/not-connected/not-connected.component.scss",
+        "hash": "9515226768688970545"
+      },
+      {
+        "file": "src/app/shared/components/page-header/page-header.component.spec.ts",
+        "hash": "4443010503143986623"
+      },
+      {
+        "file": "src/app/pages/overview/assets-table/asset-modal/action-box/action-box.component.scss",
+        "hash": "18173879675973682408"
+      },
+      {
+        "file": "src/app/pages/overview/assets-table/asset-modal/asset-modal.component.ts",
+        "hash": "3546697127710394320"
+      },
+      {
+        "file": "src/app/pages/staking/form/select-stake-pool/select-stake-pool.component.ts",
+        "hash": "15218516703755626734"
+      },
+      {
+        "file": "src/app/shared/layouts/mft/mft.module.ts",
+        "hash": "13967026979074889869"
+      },
+      {
+        "file": "src/app/pages/staking/form/lock-stake/lock-stake.component.scss",
+        "hash": "15800600366797810351"
+      },
+      {
+        "file": "src/app/pages/staking/positions/stake/merge-modal/merge-modal.component.scss",
+        "hash": "2113151520574000026"
+      },
+      {
+        "file": "src/app/pages/swap/form/setting/setting.component.scss",
+        "hash": "11282926993577152526"
+      },
+      {
+        "file": "src/app/shared/guards/is-connected.guard.ts",
+        "hash": "8026354452803863290"
+      },
+      {
+        "file": "src/app/pages/staking/positions/stake/instant-unstake-modal/instant-unstake-modal.component.scss",
+        "hash": "5748464032035867180"
+      },
+      {
+        "file": "src/app/services/sanctum.ts",
+        "hash": "4796249867026447244"
+      },
+      {
+        "file": "src/app/models/settings.model.ts",
+        "hash": "12827306742404669217"
+      },
+      {
+        "file": "src/app/pages/staking/staking.page.spec.ts",
+        "hash": "15928943811648614253"
+      },
+      {
+        "file": "src/app/pages/staking/form/apy-calc/apy-calc.component.html",
+        "hash": "16809389011174280597"
+      },
+      {
+        "file": "src/app/pages/loyalty-league/loyalty-league.page.ts",
+        "hash": "12938856478917399431"
+      },
+      {
+        "file": "src/app/pages/liquidity-pools/liquidity-pools.page.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/shared/layouts/settings/select-group-config/select-group-config.component.html",
+        "hash": "3980933938026693384"
+      },
+      {
+        "file": "src/app/shared/layouts/mft/table-menu/table-menu.component.spec.ts",
+        "hash": "702543990366020551"
+      },
+      {
+        "file": "src/app/pages/staking/positions/stake/options-popover/options-popover.component.html",
+        "hash": "12107138153135491090"
+      },
+      {
+        "file": "src/main.ts",
+        "hash": "54356210075018540"
+      },
+      {
+        "file": "src/assets/images/split-icon.svg",
+        "hash": "10251013492164041833"
+      },
+      {
+        "file": "src/app/pages/staking/positions/stake/merge-modal/merge-modal.component.ts",
+        "hash": "81823446180541407"
+      },
+      {
+        "file": "src/test.ts",
+        "hash": "12412031923219697029"
+      },
+      {
+        "file": "src/assets/icon/favicon-16x16.png",
+        "hash": "5729706561125821029"
+      },
+      {
+        "file": "src/app/services/loyalty.service.ts",
+        "hash": "6664668457315695463"
+      },
+      {
+        "file": "vercel.sh",
+        "hash": "1804436030825510800"
+      },
+      {
+        "file": "src/app/shared/layouts/tooltip/tooltip.component.scss",
+        "hash": "11991414446173098275"
+      },
+      {
+        "file": "src/app/pages/loyalty-league/pool-stats/pool-stats.component.scss",
+        "hash": "7116120793962963710"
+      },
+      {
+        "file": "src/app/services/realms/idl/gov.json",
+        "hash": "6042089852642644016"
+      },
+      {
+        "file": "src/app/pages/overview/assets-table/asset-modal/action-box/action-box.component.ts",
+        "hash": "10687366907019941306"
+      },
+      {
+        "file": "src/LICENSE.md",
+        "hash": "10345086750085527567"
+      },
+      {
+        "file": "src/app/pages/staking/form/apy-calc/apy-calc.component.spec.ts",
+        "hash": "13190204992658984820"
+      },
+      {
+        "file": "src/app/pages/swap/form/form.component.ts",
+        "hash": "12889847419021952143"
+      },
+      {
+        "file": "src/app/shared/layouts/settings/settings.component.ts",
+        "hash": "4296519791562085072"
+      },
+      {
+        "file": "src/assets/icon/switch-horizontal.svg",
+        "hash": "18065786736451234251"
+      },
+      {
+        "file": "src/app/pages/overview/assets-table/asset-modal/action-box/action-box.component.html",
+        "hash": "6343581784438095154"
+      },
+      {
+        "file": "src/assets/icon/link.svg",
+        "hash": "3137498880512939366"
+      },
+      {
+        "file": "src/assets/fonts/Inter/Inter-Medium.ttf",
+        "hash": "1972134939526048906"
+      },
+      {
+        "file": "src/assets/images/msol-small.webp",
+        "hash": "722855517071113493"
+      },
+      {
+        "file": "src/app/shared/layouts/settings/select-group-config/select-group-config.component.scss",
+        "hash": "18442774972556578816"
+      },
+      {
+        "file": "src/assets/images/route-icon.svg",
+        "hash": "10518492731064735805"
+      },
+      {
+        "file": "src/assets/images/triton-icon.svg",
+        "hash": "13667505645076120498"
+      },
+      {
+        "file": "src/assets/images/battery-1-icon.svg",
+        "hash": "7347671410503096130"
+      },
+      {
+        "file": "src/assets/icon/apple-icon-76x76.png",
+        "hash": "6944788960543800449"
+      },
+      {
+        "file": "src/app/pages/notifications/notifications.page.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/assets/fonts/Inter/Inter-Black.ttf",
+        "hash": "2968236493697222083"
+      },
+      {
+        "file": "src/app/shared/layouts/wallet/wallet-connected-dropdown/wallet-connected-dropdown.component.scss",
+        "hash": "13116284149448829363"
+      },
+      {
+        "file": "src/app/shared/layouts/mft/mft.component.scss",
+        "hash": "9525176483697818361"
+      },
+      {
+        "file": "src/assets/images/sol.svg",
+        "hash": "3735836097166947691"
+      },
+      {
+        "file": "src/index.html",
+        "hash": "1286329660397319117"
+      },
+      {
+        "file": "src/app/shared/layouts/mft/sort-popover/sort-popover.component.html",
+        "hash": "4192234034371434812"
+      },
+      {
+        "file": "src/app/app.component.html",
+        "hash": "2571014358297409495"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "6686520031028425313"
+      },
+      {
+        "file": "src/app/shared/layouts/mft/table-menu/table-menu.component.scss",
+        "hash": "12603028142226869920"
+      },
+      {
+        "file": "src/app/services/realms/idl/idl.ts",
+        "hash": "11880456640696064637"
+      },
+      {
+        "file": "src/app/shared/layouts/wallet/index.ts",
+        "hash": "54264829158965834"
+      },
+      {
+        "file": "src/app/shared/layouts/not-connected/not-connected.component.ts",
+        "hash": "2304460366266303949"
+      },
+      {
+        "file": "src/app/services/realms/index.ts",
+        "hash": "11124383880763131259"
+      },
+      {
+        "file": "src/assets/fonts/Inter/Inter-Light.ttf",
+        "hash": "8638331756396630806"
+      },
+      {
+        "file": "src/app/pages/staking/positions/stake/split-modal/split-modal.component.ts",
+        "hash": "12220685128497427055"
+      },
+      {
+        "file": "src/app/models/stake-pool.model.ts",
+        "hash": "4738711760448442583"
+      },
+      {
+        "file": "src/app/pages/swap/token-list/token-list.component.html",
+        "hash": "12520881554320165472"
+      },
+      {
+        "file": "src/assets/images/blze-small.webp",
+        "hash": "8028533131972470268"
+      },
+      {
+        "file": "src/app/shared/layouts/mft/table-menu/table-menu.component.ts",
+        "hash": "4831745599943574070"
+      },
+      {
+        "file": "src/app/pages/staking/positions/stake/stake.component.html",
+        "hash": "8876869861336098894"
+      },
+      {
+        "file": "src/app/services/util.service.ts",
+        "hash": "11053187233699708714"
+      },
+      {
+        "file": "src/app/pages/loyalty-league/pool-stats/pool-stats.component.html",
+        "hash": "4983693613437823961"
+      },
+      {
+        "file": "src/assets/images/close-icon.svg",
+        "hash": "11466360222779414260"
+      },
+      {
+        "file": "src/app/shared/components/menu/menu.component.spec.ts",
+        "hash": "8372598873289393314"
+      },
+      {
+        "file": "src/app/shared/layouts/tooltip/tooltip.module.ts",
+        "hash": "15541588798109735962"
+      },
+      {
+        "file": "src/app/shared/pipes/timeDiff.pipe.ts",
+        "hash": "4201373116796839448"
+      },
+      {
+        "file": "src/assets/fonts/Inter/Inter-SemiBold.ttf",
+        "hash": "4255754514988160023"
+      },
+      {
+        "file": "src/app/pages/staking/form/select-validator/select-validator.component.ts",
+        "hash": "1895794162015687374"
+      },
+      {
+        "file": "src/app/pages/staking/form/form.component.spec.ts",
+        "hash": "2801217136671180031"
+      },
+      {
+        "file": "src/app/pages/collectibles/feature-toast/feature-toast.component.scss",
+        "hash": "8430655508955748713"
+      },
+      {
+        "file": "src/app/pages/lending/lending.page.spec.ts",
+        "hash": "7757971634967840551"
+      },
+      {
+        "file": "src/app/pages/collectibles/nft-item/nft-item.component.scss",
+        "hash": "13229693604972198977"
+      },
+      {
+        "file": "src/app/shared/layouts/mft/mft.component.html",
+        "hash": "18130029625344324621"
+      },
+      {
+        "file": "src/app/pages/staking/form/lock-stake/lock-stake.component.html",
+        "hash": "15880835861253808809"
+      },
+      {
+        "file": "src/app/pages/staking/form/validators-modal/validators-modal.component.ts",
+        "hash": "10767128082435298113"
+      },
+      {
+        "file": "src/app/shared/layouts/mft/mft.component.ts",
+        "hash": "6523517657155779812"
+      },
+      {
+        "file": "src/app/shared/layouts/mft/table-head/table-head.component.html",
+        "hash": "1502938305657730706"
+      },
+      {
+        "file": "src/app/pages/overview/net-worth/net-worth.component.scss",
+        "hash": "5074899766820865637"
+      },
+      {
+        "file": "src/app/pages/collectibles/nft-preview/nft-preview.component.scss",
+        "hash": "1453734390341225150"
+      },
+      {
+        "file": "src/app/pages/loyalty-league/loyalty-league.page.html",
+        "hash": "15492599569784863027"
+      },
+      {
+        "file": "src/app/pages/swap/swap.page.scss",
+        "hash": "14949632120040024544"
+      },
+      {
+        "file": "src/app/shared/components/alert/alert.component.scss",
+        "hash": "2033895328837136721"
+      },
+      {
+        "file": "src/app/pages/loyalty/loyalty-league.page.ts",
+        "hash": "16798449949146252924"
+      },
+      {
+        "file": "src/assets/fonts/Inter/Inter-ExtraBold.ttf",
+        "hash": "5456162361451656665"
+      },
+      {
+        "file": "src/app/pages/collectibles/feature-toast/feature-toast.component.ts",
+        "hash": "17898916504217322819"
+      },
+      {
+        "file": "src/app/models/jup-token.model.ts",
+        "hash": "5865252853787457898"
+      },
+      {
+        "file": "src/app/models/stakewiz.model.ts",
+        "hash": "517257776973671480"
+      },
+      {
+        "file": "src/assets/images/menu-icon.svg",
+        "hash": "170855344890554940"
+      },
+      {
+        "file": "src/app/pages/collectibles/nft-item/nft-item.component.html",
+        "hash": "14249800020821135756"
+      },
+      {
+        "file": "src/app/shared/components/modal/modal.component.spec.ts",
+        "hash": "11702683789866150134"
+      },
+      {
+        "file": "src/app/pages/swap/form/setting/setting.component.spec.ts",
+        "hash": "6540836854967635166"
+      },
+      {
+        "file": "solanahub-icon.png",
+        "hash": "14422332108894579466"
+      },
+      {
+        "file": "src/app/shared/components/transactions-history-table/transactions-history-table.component.spec.ts",
+        "hash": "4146487841604144994"
+      },
+      {
+        "file": "src/app/shared/pipes/reverse.pipe.ts",
+        "hash": "6193688580770847600"
+      },
+      {
+        "file": "src/app/pages/swap/swap.page.html",
+        "hash": "18353942737348386484"
+      },
+      {
+        "file": "src/theme/variables.scss",
+        "hash": "8553229385778151241"
+      },
+      {
+        "file": "src/assets/icon/apple-icon-57x57.png",
+        "hash": "9541558466623469124"
+      },
+      {
+        "file": "src/app/pages/overview/assets-table/asset-modal/asset-modal.component.scss",
+        "hash": "3898507937865845064"
+      },
+      {
+        "file": "src/app/pages/overview/assets-table/asset-modal/price-chart/price-chart.component.scss",
+        "hash": "11868167641444907160"
+      },
+      {
+        "file": "src/assets/images/transfer-auth-icon.svg",
+        "hash": "6087870370078888273"
+      },
+      {
+        "file": "src/app/pages/staking/positions/stake/delegate-lst/delegate-lst-modal.component.html",
+        "hash": "2496947310246211843"
+      },
+      {
+        "file": "src/app/pages/swap/form/setting/slippage-modal/slippage-modal.component.spec.ts",
+        "hash": "10830587333548758982"
+      },
+      {
+        "file": "src/app/services/tx-interceptor.service.ts",
+        "hash": "821859066518697863"
+      },
+      {
+        "file": "src/app/pages/bridge/bridge.page.ts",
+        "hash": "8415643749116589682"
+      },
+      {
+        "file": "src/app/pages/overview/portfolio-breakdown/portfolio-breakdown.component.spec.ts",
+        "hash": "6670890779807962918"
+      },
+      {
+        "file": "src/app/pages/staking/form/apy-calc/apy-calc.component.scss",
+        "hash": "9442416823725268755"
+      },
+      {
+        "file": "src/app/pages/dao/dao-group/proposal-popup/proposal-popup.component.ts",
+        "hash": "4647995722628397968"
+      },
+      {
+        "file": "src/app/pages/overview/assets-table/asset-modal/asset-modal.component.html",
+        "hash": "8490854292653263320"
+      },
+      {
+        "file": "src/app/shared/layouts/wallet/wallet-connected-dropdown/wallet-connected-dropdown.component.html",
+        "hash": "18122656054401670212"
+      },
+      {
+        "file": ".browserslistrc",
+        "hash": "7979060078399394427"
+      },
+      {
+        "file": "src/app/pages/staking/positions/stake/transfer-auth-modal/transfer-auth-modal.component.spec.ts",
+        "hash": "7957966079459634610"
+      },
+      {
+        "file": "src/app/pages/staking/form/custom-validator/custom-validator.component.html",
+        "hash": "11266408450689939495"
+      },
+      {
+        "file": "src/app/pages/staking/positions/stake/unstake-lst-modal/unstake-lst-modal.component.html",
+        "hash": "9265505198023261970"
+      },
+      {
+        "file": "src/assets/images/usdc.svg",
+        "hash": "251622133333551193"
+      },
+      {
+        "file": "src/app/shared/layouts/wallet/wallet-connect/wallet-connect.component.spec.ts",
+        "hash": "13447697803398258236"
+      },
+      {
+        "file": "src/app/pages/loyalty-league/points-stats/points-stats.component.html",
+        "hash": "4355810287691967393"
+      },
+      {
+        "file": "src/app/pages/swap/form/setting/setting.component.html",
+        "hash": "7112197232006992508"
+      },
+      {
+        "file": "src/app/shared/components/address-input/address-input.component.spec.ts",
+        "hash": "15418828966030543609"
+      },
+      {
+        "file": "src/app/pages/swap/form/input/input.component.spec.ts",
+        "hash": "12523591706247177793"
+      },
+      {
+        "file": "angular.json",
+        "hash": "11229286817161010923"
+      },
+      {
+        "file": "src/zone-flags.ts",
+        "hash": "3323586086306676158"
+      },
+      {
+        "file": "src/assets/fonts/Inter/Inter-ExtraLight.ttf",
+        "hash": "18217433362759599940"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "16571847073735309330"
+      },
+      {
+        "file": "src/app/pages/liquidity-pools/liquidity-pools.page.spec.ts",
+        "hash": "17519569481437064856"
+      },
+      {
+        "file": "src/app/pages/staking/positions/stake/delegate-lst/delegate-lst-modal.component.scss",
+        "hash": "7379129117484647955"
+      },
+      {
+        "file": "src/app/models/loyalty.model.ts",
+        "hash": "15089502565114278128"
+      },
+      {
+        "file": "src/app/pages/notifications/notifications.page.spec.ts",
+        "hash": "1505868035507561631"
+      },
+      {
+        "file": "src/app/pages/staking/positions/stake/instant-unstake-modal/instant-unstake-modal.component.spec.ts",
+        "hash": "18226436650714204245"
+      },
+      {
+        "file": "src/app/shared/layouts/tooltip/tooltip.directive.ts",
+        "hash": "7638692767693461984"
+      },
+      {
+        "file": "src/app/pages/swap/route-calc/route-calc.component.ts",
+        "hash": "3814712712507700679"
+      },
+      {
+        "file": "src/app/pages/collectibles/nft-modal-item/nft-modal-item.component.spec.ts",
+        "hash": "9087354186464418584"
+      },
+      {
+        "file": "src/app/pages/collectibles/send-nft-modal/send-nft-modal.component.html",
+        "hash": "1449579325136207"
+      },
+      {
+        "file": "src/app/pages/staking/positions/positions.component.scss",
+        "hash": "7643942973028616992"
+      },
+      {
+        "file": "src/assets/icon/favicon-96x96.png",
+        "hash": "16023874069819649526"
+      },
+      {
+        "file": "src/app/pages/staking/positions/stake/stake.component.ts",
+        "hash": "10223964497134780012"
+      },
+      {
+        "file": "src/assets/images/base-explorer-icon.svg",
+        "hash": "6007965923656780266"
+      },
+      {
+        "file": "src/app/services/toaster.service.ts",
+        "hash": "9745473859617450079"
+      },
+      {
+        "file": "src/app/pages/swap/route-calc/route-calc.component.spec.ts",
+        "hash": "13595771444048041865"
+      },
+      {
+        "file": "src/app/shared/components/index.ts",
+        "hash": "3104336433716275941"
+      },
+      {
+        "file": "src/app/pages/lending/lending.page.ts",
+        "hash": "4268198340066688503"
+      },
+      {
+        "file": "src/app/pages/notifications/notifications.page.ts",
+        "hash": "16317089571613304103"
+      },
+      {
+        "file": "src/app/pages/swap/form/input/input.component.html",
+        "hash": "5663627964578396549"
+      },
+      {
+        "file": "src/app/pages/staking/form/lock-stake/lock-stake.component.ts",
+        "hash": "13449697021553724810"
+      },
+      {
+        "file": "src/app/pages/dao/dao-group/dao-group.component.html",
+        "hash": "4941113949699848723"
+      },
+      {
+        "file": "src/app/pages/swap/form/input/input.component.ts",
+        "hash": "7234243972139556649"
+      },
+      {
+        "file": "src/assets/images/coins-icon.svg",
+        "hash": "8618622351865322607"
+      },
+      {
+        "file": "src/app/pages/loyalty/points-stats/points-stats.component.ts",
+        "hash": "11471422898570397795"
+      },
+      {
+        "file": "src/assets/images/hourglass-icon.svg",
+        "hash": "15234554429939664335"
+      },
+      {
+        "file": "src/assets/fonts/Inter/Inter-Regular.ttf",
+        "hash": "17910931451049185240"
+      },
+      {
+        "file": "src/app/pages/staking/form/custom-validator/custom-validator.component.spec.ts",
+        "hash": "1745182333339415371"
+      },
+      {
+        "file": "src/app/shared/layouts/mft/table-head/table-head.component.scss",
+        "hash": "15298135663147704238"
+      },
+      {
+        "file": "src/app/pages/dao/dao.page.spec.ts",
+        "hash": "4661949308086826789"
+      },
+      {
+        "file": "src/app/pages/swap/token-list/token-list.component.ts",
+        "hash": "8308034984835172757"
+      },
+      {
+        "file": "tsconfig.spec.json",
+        "hash": "17198424518534092990"
+      },
+      {
+        "file": "src/global.scss",
+        "hash": "6649520991824041330"
+      },
+      {
+        "file": "src/app/shared/pipes/index.ts",
+        "hash": "4626606813728451831"
+      },
+      {
+        "file": "src/app/pages/staking/form/select-validator/select-validator.component.scss",
+        "hash": "3594449916333324746"
+      },
+      {
+        "file": "src/app/pages/bridge/bridge.page.scss",
+        "hash": "5144650529273225632"
+      },
+      {
+        "file": "src/app/pages/airdrop-finder/airdrop-finder.page.ts",
+        "hash": "5551073521235952679"
+      },
+      {
+        "file": "src/app/pages/notifications/notifications.page.html",
+        "hash": "18420924714794198463"
+      },
+      {
+        "file": "src/app/shared/components/transactions-history-table/transactions-history-table.component.html",
+        "hash": "11864388829719585546"
+      },
+      {
+        "file": "src/app/pages/bridge/bridge.page.html",
+        "hash": "729831156090847307"
+      },
+      {
+        "file": "src/app/pages/staking/form/select-validator/select-validator.component.html",
+        "hash": "13724448665485653504"
+      },
+      {
+        "file": "src/assets/images/stake-icon.svg",
+        "hash": "7544648975636706231"
+      },
+      {
+        "file": "src/app/shared/layouts/wallet/wallet.module.ts",
+        "hash": "15456687348305054390"
+      },
+      {
+        "file": "src/app/pages/pools/pools.page.ts",
+        "hash": "4667282881473449999"
+      },
+      {
+        "file": "src/app/services/dao.service.ts",
+        "hash": "11288173662668470976"
+      },
+      {
+        "file": "src/app/pages/pools/pools.page.spec.ts",
+        "hash": "13447085597969339235"
+      },
+      {
+        "file": "src/app/pages/loyalty-league/member-stats/member-stats.component.ts",
+        "hash": "2412765477516005036"
+      },
+      {
+        "file": "src/app/pages/staking/form/select-stake-pool/select-stake-pool.component.scss",
+        "hash": "8704981097474427264"
+      },
+      {
+        "file": "src/assets/images/validators-icon.svg",
+        "hash": "280521978611846331"
+      },
+      {
+        "file": "src/app/shared/components/amount-input/amount-input.component.ts",
+        "hash": "8076079136074028602"
+      },
+      {
+        "file": "src/app/pages/staking/positions/stake/options-popover/options-popover.component.spec.ts",
+        "hash": "16253854783304617569"
+      },
+      {
+        "file": "src/app/pages/staking/positions/stake/transfer-auth-modal/transfer-auth-modal.component.ts",
+        "hash": "5164727311542552891"
+      },
+      {
+        "file": "src/app/pages/overview/assets-table/asset-modal/price-chart/price-chart.component.html",
+        "hash": "16491397075322092662"
+      },
+      {
+        "file": "src/assets/icon/apple-icon-180x180.png",
+        "hash": "9714482498852246401"
+      },
+      {
+        "file": "src/app/shared/components/input-label/input-label.component.ts",
+        "hash": "4508681268247373894"
+      },
+      {
+        "file": "src/app/pages/overview/overview.page.scss",
+        "hash": "8479590572747257000"
+      },
+      {
+        "file": "src/assets/images/trash-white-icon.svg",
+        "hash": "13155727274567853503"
+      },
+      {
+        "file": "src/app/pages/swap/form/setting/setting.component.ts",
+        "hash": "7480654890163200732"
+      },
+      {
+        "file": "src/assets/images/group-icon.svg",
+        "hash": "11439681484617322823"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "592272277800690021"
+      },
+      {
+        "file": "src/app/shared/components/input-label/input-label.component.scss",
+        "hash": "10544087967988594178"
+      },
+      {
+        "file": "src/assets/images/bolt-icon.svg",
+        "hash": "8909607562988994940"
+      },
+      {
+        "file": "src/assets/images/help-icon.svg",
+        "hash": "4244846313681841885"
+      },
+      {
+        "file": "src/app/services/donate.service.ts",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/pages/collectibles/burn-nft-modal/burn-nft-modal.component.spec.ts",
+        "hash": "7294282128494188669"
+      },
+      {
+        "file": "src/app/pages/collectibles/send-nft-modal/send-nft-modal.component.spec.ts",
+        "hash": "12701436445459350371"
+      },
+      {
+        "file": "src/app/pages/staking/form/form.component.scss",
+        "hash": "227192123073959827"
+      },
+      {
+        "file": "src/app/pages/staking/form/custom-validator/custom-validator.component.ts",
+        "hash": "15104392849125287638"
+      },
+      {
+        "file": "src/app/pages/collectibles/nft-preview/nft-preview.component.ts",
+        "hash": "6478136710796481477"
+      },
+      {
+        "file": "src/app/shared/components/input-label/input-label.component.spec.ts",
+        "hash": "4991286367018957973"
+      },
+      {
+        "file": "src/app/pages/overview/assets-table/asset-modal/asset-modal.component.spec.ts",
+        "hash": "6708087976478340585"
+      },
+      {
+        "file": "src/app/shared/directives/copy-text.directive.ts",
+        "hash": "7038161623868141590"
+      },
+      {
+        "file": "src/app/shared/components/amount-input/amount-input.component.html",
+        "hash": "1192139739525684662"
+      },
+      {
+        "file": "src/app/pages/dao/dao-group/proposal-preview/proposal-preview.component.spec.ts",
+        "hash": "18283890771504285084"
+      },
+      {
+        "file": "src/assets/icon/arrow-narrow-down.svg",
+        "hash": "6783628677553079953"
+      },
+      {
+        "file": "src/app/shared/components/animated-icon/animated-icon.component.spec.ts",
+        "hash": "92168220508263469"
+      },
+      {
+        "file": "src/app/services/realms/constant.ts",
+        "hash": "14616125977102733660"
+      },
+      {
+        "file": "src/assets/images/solanafm-icon.svg",
+        "hash": "13562000824358593445"
+      },
+      {
+        "file": "src/app/shared/components/animated-icon/animated-icon.component.ts",
+        "hash": "4352671497381299973"
+      },
+      {
+        "file": "src/app/pages/staking/positions/positions.component.ts",
+        "hash": "6882316830985077201"
+      },
+      {
+        "file": "src/app/pages/lending/lending.page.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/pages/staking/form/validators-modal/validators-modal.component.html",
+        "hash": "17693056667773626318"
+      },
+      {
+        "file": "src/assets/images/cog-icon.svg",
+        "hash": "18252369441589614327"
+      },
+      {
+        "file": "src/app/shared/layouts/settings/settings.component.scss",
+        "hash": "453237492340591026"
+      },
+      {
+        "file": "src/app/pages/dao/dao-group/proposal-popup/proposal-popup.component.html",
+        "hash": "17394731558756917572"
+      },
+      {
+        "file": "src/app/services/index.ts",
+        "hash": "6231786450972409271"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "18210278994710539225"
+      },
+      {
+        "file": "src/app/pages/airdrop-finder/airdrop-finder.page.scss",
+        "hash": "10765254360733304019"
+      },
+      {
+        "file": "vercel.json",
+        "hash": "1371523744079413786"
+      },
+      {
+        "file": "src/app/pages/loyalty-league/points-stats/points-stats.component.ts",
+        "hash": "3577424298992068138"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "9514979952191340589"
+      },
+      {
+        "file": "src/app/shared/layouts/tooltip/tooltip.enums.ts",
+        "hash": "11169819798651625921"
+      },
+      {
+        "file": "src/app/models/portfolio.model.ts",
+        "hash": "8823290840541964791"
+      },
+      {
+        "file": "src/app/models/dao.model.ts",
+        "hash": "12890787048199442466"
+      },
+      {
+        "file": "src/app/pages/swap/route-calc/route-calc.component.scss",
+        "hash": "11903197064389984310"
+      },
+      {
+        "file": "src/app/pages/swap/form/setting/slippage-modal/slippage-modal.component.ts",
+        "hash": "3580254486724364540"
+      },
+      {
+        "file": "src/app/pages/swap/form/form.component.html",
+        "hash": "18251264009312646739"
+      },
+      {
+        "file": "src/app/app.routes.ts",
+        "hash": "3463677956974770660"
+      },
+      {
+        "file": "src/app/pages/overview/assets-table/table-options-helper.ts",
+        "hash": "18251275422780673234"
+      },
+      {
+        "file": "src/app/pages/collectibles/nft-modal-item/nft-modal-item.component.scss",
+        "hash": "8710334094198079449"
+      },
+      {
+        "file": "src/app/pages/swap/token-list/token-list.component.spec.ts",
+        "hash": "1450633066611877344"
+      },
+      {
+        "file": "src/app/pages/loyalty-league/member-stats/member-stats.component.spec.ts",
+        "hash": "17150702982398055800"
+      },
+      {
+        "file": "src/app/shared/components/search-box/search-box.component.spec.ts",
+        "hash": "11895935184584414752"
+      },
+      {
+        "file": "src/assets/Logo-text.jpg",
+        "hash": "10849056229143589487"
+      },
+      {
+        "file": "src/app/services/realms/types.ts",
+        "hash": "9547403755578344480"
+      },
+      {
+        "file": "src/app/shared/components/alert/alert.component.ts",
+        "hash": "16217712116849958459"
+      },
+      {
+        "file": "src/app/shared/layouts/not-connected/not-connected.component.spec.ts",
+        "hash": "11361950769313083899"
+      },
+      {
+        "file": "src/app/services/jup-store.service.ts",
+        "hash": "306545423143110847"
+      },
+      {
+        "file": "src/app/shared/layouts/mft/sort-popover/sort-popover.component.ts",
+        "hash": "12734788216042563659"
+      },
+      {
+        "file": "src/app/shared/shared.module.ts",
+        "hash": "11022483516647339924"
+      },
+      {
+        "file": "src/app/pages/collectibles/nft-item/nft-item.component.spec.ts",
+        "hash": "3714585294652030248"
+      },
+      {
+        "file": "src/app/pages/staking/form/select-validator/select-validator.component.spec.ts",
+        "hash": "17103218246805062149"
+      },
+      {
+        "file": "src/app/shared/components/menu/menu.component.html",
+        "hash": "16881546524869046400"
+      },
+      {
+        "file": "src/app/pages/staking/form/validators-modal/validators-modal.component.spec.ts",
+        "hash": "2844603090440977731"
+      },
+      {
+        "file": "src/app/pages/liquidity-pools/liquidity-pools.page.html",
+        "hash": "1533317736056523016"
+      },
+      {
+        "file": "src/app/pages/staking/positions/positions.component.spec.ts",
+        "hash": "10053899004488718266"
+      },
+      {
+        "file": "src/app/shared/pipes/safe.pipe.ts",
+        "hash": "9062951953638912548"
+      },
+      {
+        "file": "src/app/pages/overview/portfolio-breakdown/portfolio-breakdown.component.html",
+        "hash": "6972068843763325351"
+      },
+      {
+        "file": "src/assets/images/bg-decorative.svg",
+        "hash": "571856902325102082"
+      },
+      {
+        "file": "src/app/pages/dao/dao.page.html",
+        "hash": "13906954935682727055"
+      },
+      {
+        "file": "src/app/pages/staking/staking.page.html",
+        "hash": "5059570837196980586"
+      },
+      {
+        "file": "src/app/shared/layouts/wallet/wallet-connect/wallet-connect.component.scss",
+        "hash": "7778427372744592623"
+      },
+      {
+        "file": "src/app/pages/overview/overview.page.spec.ts",
+        "hash": "4701407516045822277"
+      },
+      {
+        "file": "src/inter-font.scss",
+        "hash": "11709704824902729222"
+      },
+      {
+        "file": "src/app/services/local-storage.service.ts",
+        "hash": "2266305819839200555"
+      },
+      {
+        "file": "src/assets/images/battery-2-icon.svg",
+        "hash": "8477673994261726687"
+      },
+      {
+        "file": "src/app/shared/components/address-input/address-input.component.ts",
+        "hash": "12584063709359383702"
+      },
+      {
+        "file": "src/app/pages/staking/positions/stake/unstake-lst-modal/unstake-lst-modal.component.ts",
+        "hash": "3692962331240661402"
+      },
+      {
+        "file": "src/app/services/liquid-stake.service.ts",
+        "hash": "16154387257820742725"
+      },
+      {
+        "file": "src/app/pages/staking/positions/stake/instant-unstake-modal/instant-unstake-modal.component.html",
+        "hash": "17834673142488008094"
+      },
+      {
+        "file": "src/app/pages/dao/dao-group/dao-group.component.ts",
+        "hash": "8229695497794298461"
+      },
+      {
+        "file": "src/app/pages/collectibles/burn-nft-modal/burn-nft-modal.component.ts",
+        "hash": "17866033655443676503"
+      },
+      {
+        "file": "src/app/pages/swap/form/setting/slippage-modal/slippage-modal.component.html",
+        "hash": "5125074412706394760"
+      },
+      {
+        "file": "src/app/pages/overview/net-worth/net-worth.component.html",
+        "hash": "16320346637104396399"
+      },
+      {
+        "file": "src/assets/fonts/Inter/Inter-VariableFont_slnt,wght.ttf",
+        "hash": "12068198562404819109"
+      },
+      {
+        "file": "src/app/pages/staking/form/select-stake-pool/select-stake-pool.component.html",
+        "hash": "10047214413382465177"
+      },
+      {
+        "file": "src/app/shared/components/modal/modal.component.scss",
+        "hash": "4456554455445757169"
+      },
+      {
+        "file": "src/app/pages/collectibles/list-nft-modal/list-nft-modal.component.spec.ts",
+        "hash": "306941913553771218"
+      },
+      {
+        "file": "src/app/pages/overview/assets-table/assets-table.component.html",
+        "hash": "13330214817638367301"
+      },
+      {
+        "file": "src/polyfills.ts",
+        "hash": "970727551725943399"
+      },
+      {
+        "file": "src/app/pages/staking/positions/stake/transfer-auth-modal/transfer-auth-modal.component.scss",
+        "hash": "13734653210274972977"
+      },
+      {
+        "file": "src/app/pages/staking/form/select-stake-pool/select-stake-pool.component.spec.ts",
+        "hash": "4549805283077524779"
+      },
+      {
+        "file": "src/assets/images/no-dao.png",
+        "hash": "13718430780746354186"
+      },
+      {
+        "file": "src/app/pages/overview/overview.page.html",
+        "hash": "2970832723391509174"
+      },
+      {
+        "file": "src/app/pages/collectibles/nft-item/nft-item.component.ts",
+        "hash": "6331615340350458807"
+      },
+      {
+        "file": "src/app/services/realms/ix_filter.ts",
+        "hash": "561854930209007633"
+      },
+      {
+        "file": "src/app/shared/components/transactions-history-table/transactions-history-table.component.ts",
+        "hash": "13043641039145190924"
+      },
+      {
+        "file": "src/assets/Logo-text.png",
+        "hash": "1433502709447378403"
+      },
+      {
+        "file": "src/app/models/index.ts",
+        "hash": "12200188817728973211"
+      },
+      {
+        "file": "src/app/pages/collectibles/feature-toast/feature-toast.component.html",
+        "hash": "10266232934674655043"
+      },
+      {
+        "file": "src/assets/images/bg-header-decorative.svg",
+        "hash": "8880989602295218064"
+      },
+      {
+        "file": "src/app/shared/components/search-box/search-box.component.html",
+        "hash": "1758909636257946700"
+      },
+      {
+        "file": "src/app/pages/overview/portfolio-breakdown/portfolio-breakdown.component.ts",
+        "hash": "3954368050187347919"
+      },
+      {
+        "file": "src/app/pages/staking/positions/stake/merge-modal/merge-modal.component.html",
+        "hash": "10027503742892377491"
+      },
+      {
+        "file": "src/assets/images/bsol-small.webp",
+        "hash": "12284809402362320323"
+      },
+      {
+        "file": "src/app/pages/staking/positions/stake/delegate-lst/delegate-lst-modal.component.ts",
+        "hash": "15495228882478503488"
+      },
+      {
+        "file": "src/assets/images/send-icon.svg",
+        "hash": "14534456054780603647"
+      },
+      {
+        "file": "src/app/services/airdrops-finder.service.ts",
+        "hash": "7110961209861265000"
+      },
+      {
+        "file": "src/app/pages/airdrop-finder/airdrop-finder.page.html",
+        "hash": "13704722017626559291"
+      },
+      {
+        "file": "src/app/services/portfolio.service.ts",
+        "hash": "5533374356664442168"
+      },
+      {
+        "file": "src/app/models/stake.model.ts",
+        "hash": "10862468111679421070"
+      },
+      {
+        "file": "src/assets/images/solscan-icon.svg",
+        "hash": "14150228314854400945"
+      },
+      {
+        "file": "src/app/pages/overview/overview.page.ts",
+        "hash": "1593716111255480111"
+      },
+      {
+        "file": "src/app/shared/layouts/wallet/wallet-adapter-options/wallet-adapter-options.component.ts",
+        "hash": "18383939178462313189"
+      },
+      {
+        "file": "src/app/pages/pools/pools.page.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/pages/bridge/bridge.page.spec.ts",
+        "hash": "10323356028732755224"
+      },
+      {
+        "file": "src/app/pages/swap/form/form.component.scss",
+        "hash": "17146549119807063306"
+      },
+      {
+        "file": "src/assets/images/bg-wallet-no-connected.svg",
+        "hash": "14949731360345229450"
+      },
+      {
+        "file": "src/assets/icon/favicon.ico",
+        "hash": "1408685873789955588"
+      },
+      {
+        "file": "src/app/pages/overview/assets-table/assets-table.component.scss",
+        "hash": "5658175917699144140"
+      },
+      {
+        "file": "src/app/pages/collectibles/send-nft-modal/send-nft-modal.component.ts",
+        "hash": "9974689431982271099"
+      },
+      {
+        "file": "src/app/pages/dao/dao-group/proposal-preview/proposal-preview.component.ts",
+        "hash": "2983743169161668930"
+      },
+      {
+        "file": "src/app/shared/layouts/settings/select-group-config/select-group-config.component.ts",
+        "hash": "7879886812694698796"
+      },
+      {
+        "file": "src/app/shared/layouts/wallet/wallet-adapter-options/wallet-adapter-options.component.scss",
+        "hash": "10898775086544161088"
+      },
+      {
+        "file": "src/app/shared/directives/index.ts",
+        "hash": "4055606894390288348"
+      },
+      {
+        "file": "src/assets/images/trash-icon.svg",
+        "hash": "15897814848639796812"
+      },
+      {
+        "file": "src/app/shared/components/amount-input/amount-input.component.scss",
+        "hash": "6292504747944771740"
+      },
+      {
+        "file": "src/assets/fonts/Inter/Inter-Thin.ttf",
+        "hash": "10653490544658324834"
+      },
+      {
+        "file": "src/app/pages/staking/positions/positions.component.html",
+        "hash": "8711298069357465710"
+      },
+      {
+        "file": "src/app/pages/staking/positions/stake/stake.component.spec.ts",
+        "hash": "17699726912550029279"
+      },
+      {
+        "file": "src/assets/images/refresh-icon.svg",
+        "hash": "870379855785965860"
+      },
+      {
+        "file": "src/app/pages/staking/form/stake-path/stake-path.component.spec.ts",
+        "hash": "16083439374305307063"
+      },
+      {
+        "file": "src/app/pages/overview/assets-table/asset-modal/price-chart/price-chart.component.ts",
+        "hash": "18178900930052406228"
+      },
+      {
+        "file": "src/app/pages/staking/positions/stake/options-popover/options-popover.component.ts",
+        "hash": "2479522314202682416"
+      },
+      {
+        "file": "src/app/services/price-history.service.ts",
+        "hash": "13857269830305834824"
+      },
+      {
+        "file": "src/app/shared/layouts/not-connected/not-connected.component.html",
+        "hash": "10711723331368938324"
+      },
+      {
+        "file": "src/app/pages/collectibles/list-nft-modal/list-nft-modal.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/app.component.spec.ts",
+        "hash": "9353468772902956274"
+      },
+      {
+        "file": "src/app/pages/loyalty-league/points-stats/points-stats.component.scss",
+        "hash": "559799831703337284"
+      },
+      {
+        "file": "src/app/pages/collectibles/collectibles.page.html",
+        "hash": "12114390350716983024"
+      },
+      {
+        "file": "src/app/shared/components/animated-icon/animated-icon.component.scss",
+        "hash": "2925994826528914942"
+      },
+      {
+        "file": "src/app/shared/layouts/settings/select-group-config/select-group-config.component.spec.ts",
+        "hash": "14231224689783721678"
+      },
+      {
+        "file": "src/app/pages/swap/form/form.component.spec.ts",
+        "hash": "2801217136671180031"
+      },
+      {
+        "file": "package.json",
+        "hash": "6482471552325952497"
+      },
+      {
+        "file": "src/assets/images/helius-icon.svg",
+        "hash": "608226640455084736"
+      },
+      {
+        "file": "src/app/pages/staking/form/validators-modal/validators-modal.component.scss",
+        "hash": "15163644936395432159"
+      },
+      {
+        "file": "capacitor.config.ts",
+        "hash": "10003475992721878089"
+      },
+      {
+        "file": "src/assets/icon/apple-icon-114x114.png",
+        "hash": "13634359249533242731"
+      },
+      {
+        "file": "src/app/pages/swap/swap.page.spec.ts",
+        "hash": "15163787241779806084"
+      },
+      {
+        "file": "src/assets/images/tokens-icon.svg",
+        "hash": "15997715335599235960"
+      },
+      {
+        "file": "src/app/shared/components/page-header/page-header.component.scss",
+        "hash": "10316035090585341456"
+      },
+      {
+        "file": "src/app/pages/collectibles/feature-toast/feature-toast.component.spec.ts",
+        "hash": "4886345866193529887"
+      },
+      {
+        "file": "src/assets/images/droplets-icon.svg",
+        "hash": "6840009819660583234"
+      },
+      {
+        "file": "webpack.config.js",
+        "hash": "8096433067829039918"
+      },
+      {
+        "file": "src/app/pages/overview/assets-table/assets-table.component.spec.ts",
+        "hash": "5305232935913383528"
+      },
+      {
+        "file": "src/app/shared/components/menu/menu.component.ts",
+        "hash": "296637402504418941"
+      },
+      {
+        "file": "src/assets/icon/favicon.png",
+        "hash": "15084835402442232352"
+      },
+      {
+        "file": "src/app/shared/layouts/wallet/wallet-connect/wallet-connect.component.ts",
+        "hash": "3473295373608291975"
+      },
+      {
+        "file": "src/app/services/native-stake.service.ts",
+        "hash": "4022253947097220915"
+      },
+      {
+        "file": "src/app/pages/staking/positions/stake/merge-modal/merge-modal.component.spec.ts",
+        "hash": "13632784436139053502"
+      },
+      {
+        "file": "src/app/pages/staking/form/custom-validator/custom-validator.component.scss",
+        "hash": "3573192501292454260"
+      },
+      {
+        "file": "src/app/shared/components/modal/modal.component.ts",
+        "hash": "6409377697599798531"
+      },
+      {
+        "file": "src/app/app.component.scss",
+        "hash": "9075211336734240052"
+      },
+      {
+        "file": "src/app/pages/airdrop-finder/airdrop-finder.page.spec.ts",
+        "hash": "13040799102082502491"
+      },
+      {
+        "file": "src/app/pages/loyalty-league/pool-stats/pool-stats.component.spec.ts",
+        "hash": "13768675410799503223"
+      },
+      {
+        "file": "src/app/shared/layouts/wallet/wallet-connect/wallet-connect.component.html",
+        "hash": "2123116403321300562"
+      },
+      {
+        "file": "src/assets/icon/apple-icon-120x120.png",
+        "hash": "17671398152721076876"
+      },
+      {
+        "file": "src/assets/images/jto-small.webp",
+        "hash": "10835233242423025875"
+      },
+      {
+        "file": "src/app/models/airdrops.model.ts",
+        "hash": "3616787650490243667"
+      },
+      {
+        "file": "src/app/pages/staking/form/form.component.ts",
+        "hash": "2800861117840145817"
+      },
+      {
+        "file": "src/app/pages/collectibles/collectibles.page.ts",
+        "hash": "468130174236141906"
+      },
+      {
+        "file": "src/app/shared/layouts/mft/table-head/table-head.component.spec.ts",
+        "hash": "4940813094962997620"
+      },
+      {
+        "file": "src/app/pages/staking/positions/stake/split-modal/split-modal.component.spec.ts",
+        "hash": "12969164765613265682"
+      },
+      {
+        "file": "src/app/pages/staking/form/stake-path/stake-path.component.html",
+        "hash": "11239326575487975273"
+      },
+      {
+        "file": "src/app/services/payment.service.ts",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/assets/images/quicknode-icon.png",
+        "hash": "13430118943767693409"
+      }
+    ],
+    "projectFileMap": {}
+  }
+}

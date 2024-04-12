@@ -1,0 +1,40 @@
+:host{
+    display: block;
+    margin-block-end: 10px;
+}
+
+.gov-group-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #E3E8EF;
+    text-transform: capitalize;
+    .gov-total-prop {
+        color: var(--colors-text-text-secondary-700, #364152);
+        font-weight: 500;
+    }
+    div{
+        display: flex;
+        align-items: center;
+    }
+}
+.gov-group-body {
+    display: flex;
+}
+ion-img,ion-skeleton-text.temp-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    overflow: hidden;
+    margin-inline-end: 12px;
+}
+ion-skeleton-text#text {
+    width: 40%;
+}
+ion-label {
+    text-transform: capitalize;
+    color: var(--colors-text-text-primary-900, #030712);
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}

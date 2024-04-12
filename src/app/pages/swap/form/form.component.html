@@ -1,0 +1,47 @@
+<form [formGroup]="tokenSwapForm" class=" ion-margin-bottom">
+  <swap-setting (reloadRoute)="calcBestRoute()" [slippageControl]="tokenSwapForm.controls['slippage']"></swap-setting>
+  <div class="token-exchange">
+    <swap-input 
+    [tokenControl]="tokenSwapForm.controls['inputToken']"
+    [amountControl]="tokenSwapForm.controls['inputAmount']"
+    [jupTokens]="jupTokens"/>
+    <div id="flip-tokens-wrapper">
+      <ion-button (click)="flipTokens()" id="flip-tokens-btn" shape="round" size="small" fill="clear">
+        <ion-icon name="swap-vertical"></ion-icon>
+      </ion-button>
+    </div>
+    <swap-input 
+    [tokenControl]="tokenSwapForm.controls['outputToken']" 
+    [jupTokens]="jupTokens" 
+    [outValue]="bestRoute()?.outAmount" 
+    [readonly]="true"
+    [waitForBestRoute]="loading"
+    />
+
+    @if(bestRoute()){
+
+      <div id="route-path">
+        <ion-button size="small">
+          <div>
+            {{bestRoute()?.routePlan?.length}} 
+          </div>
+          <ion-img src="assets/images/route-icon.svg"/>
+        </ion-button>
+        <div>
+
+          <span style="margin-inline-end: 3px;color: rgba(0, 0, 0, 0.25)">using </span>
+          @for (lp of bestRoute().routePlan; track $index) {
+            <span> {{lp.swapInfo.label}}  @if ($index +1 < bestRoute().routePlan.length) {,}</span>
+            
+          }
+        </div>
+      </div>
+    }
+    <ion-button id="swap-button" (click)="submitSwap()" [disabled]="loading() || tokenSwapForm.invalid || !bestRoute()">
+      {{swapState()}}
+    </ion-button>
+  </div>
+</form>
+@if(bestRoute()){
+<route-calc [routeInfo]="bestRoute()" />
+}

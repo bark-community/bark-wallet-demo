@@ -1,0 +1,30 @@
+#alert {
+    padding: 12px 8px;
+    color:  #4B5565;
+    font-size: 13px;
+    border-radius: 12px;
+    border: 1px solid;
+    border-color: #E3E8EF;
+    background:  #F8FAFC;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    display: flex;
+    align-items: center;
+    div{
+        display: flex;
+    }
+    &.danger{
+        border-color: #FEE4E2;
+        background: #FEF3F2;
+        color: var(--ion-color-danger);
+    }
+    &.warning{
+        border-color: #f7900912;
+        background: #f790090f;
+        color: var(--ion-color-warning);
+    }
+    ion-icon {
+        width: 18px;
+        height: 18px;
+        margin-inline-end: 6px;
+    }
+}
