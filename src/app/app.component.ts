@@ -13,18 +13,17 @@ import { ModalController } from '@ionic/angular';
 
 
 import { WalletStore } from '@heavy-duty/wallet-adapter';
-import { WalletModule } from './shared/layouts-league/wallet/wallet.module';
+import { WalletModule } from './shared/layouts/wallet/wallet.module';
 import { PageHeaderComponent } from './shared/components/page-header/page-header.component';
-import { NotConnectedComponent } from './shared/layouts-league/not-connected/not-connected.component';
+import { NotConnectedComponent } from './shared/layouts/not-connected/not-connected.component';
 import { LocalStorageService } from './services/local-storage.service';
 import { PublicKey } from '@solana/web3.js';
 import { AnimatedIconComponent } from './shared/components/animated-icon/animated-icon.component';
-import { SettingsComponent } from './shared/layouts-league/settings/settings.component';
+import { SettingsComponent } from './shared/layouts/settings/settings.component';
 import { MenuComponent } from './shared/components/menu/menu.component';
 import { environment } from 'src/environments/environment';
 import { NgxTurnstileModule } from 'ngx-turnstile';
 import { PortfolioService, SolanaHelpersService, UtilService } from './services';
-
 
 
 @Component({
@@ -100,7 +99,7 @@ export class AppComponent implements OnInit {
       );
   }
 
-  public BarkWalletLogo = 'assets/images/solanahub-logo.png';
+  public BarkWalletLogo = 'assets/images/bark-wallet-logo.png';
 
   public appPages = [
     {
@@ -126,7 +125,7 @@ export class AppComponent implements OnInit {
       group: 'Explore',
       pages: [
         { title: 'Bridge', url: '/bridge', icon: 'https://cdn.lordicon.com/uvscndge.json', active: true },
-        { title: 'Airdrops finder', url: '/airdrop-finder', icon: 'https://cdn.lordicon.com/unukghxb.json' , active: true },
+        { title: 'Airdrops', url: '/airdrop-finder', icon: 'https://cdn.lordicon.com/unukghxb.json' , active: true },
         // { title: 'Events', url: '/events', icon: 'https://cdn.lordicon.com/hffrpcip.json', active: false },
       ],
     },

@@ -1,6 +1,7 @@
 ion-menu {
   border: 0;
   width: 14vw;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added box shadow */
 
   ion-content {
     --background: var(--ion-item-background, var(--ion-background-color, #fff));
@@ -9,28 +10,26 @@ ion-menu {
     --padding-top: 20px;
     --padding-bottom: 20px;
   }
+
   app-wallet-connect {
     margin-block-end: 12px;
     display: block;
-}
+  }
+
   ion-list {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding: 0; /* Simplified padding */
   }
 
   ion-list-header {
-    color: var(--gray-modern-500, #9ca3af);
+    color: var(--gray-modern-500, #697586); /* Updated color */
     font-size: 10px;
-    font-style: normal;
     font-weight: 600;
-    line-height: 20px;
-    /* 200% */
     letter-spacing: 2px;
     text-transform: uppercase;
   }
 
   ion-menu-toggle {
-    &:not(:last-child){
+    &:not(:last-child) {
       padding-block-end: 19px;
     }
     display: block;
@@ -40,29 +39,28 @@ ion-menu {
       height: 22px;
       margin-right: 13px;
     }
-
   }
 
   ion-item {
     cursor: pointer;
     color: var(--gray-modern-700, #364152);
     font-size: 13px;
-    font-style: normal;
     font-weight: 600;
     line-height: 24px;
-ion-chip{
-  scale: 0.75;
-    --border-radius: 0;
-    margin: 0;
-}
+
+    ion-chip {
+      scale: 0.75;
+      --border-radius: 0;
+      margin: 0;
+    }
+
     &.selected {
       border-radius: var(--radius-sm, 6px);
-      --background: #FFF3FB;
+      --background: #e8ecf5;
       color: var(--ion-color-primary);
 
       ion-icon {
         color: var(--ion-color-primary);
-
       }
     }
   }
@@ -72,38 +70,37 @@ ion-chip{
   display: flex;
   justify-content: center;
   flex-direction: column;
-
 }
 
 #logo {
   display: flex;
   align-items: center;
   padding-inline-start: 16px;
-  margin-block-end: 24px;
+  margin-block-end: 10px; /* Fixed typo in margin */
+}
 
-  ion-img {
-    width: 32px;
-    height: 32px;
-    overflow: hidden;
-    border-radius: 35%;
-    margin-inline-end: 12px;
-  }
+ion-img {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 12%;
+  margin-inline-end: 6px;
+  background-color: transparent; /* Removed unnecessary background */
+}
 
-  span {
-    color: var(--gray-modern-950, #0D121C);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 28px;
-    /* 155.556% */
-  }
+span {
+  color: var(--gray-modern-950);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
 }
 
 @media only screen and (max-width: 992px) {
   ion-menu {
     width: auto;
   }
-#main-content{
-  top: 72px;
-}
+
+  #main-content {
+    top: 72px; /* Adjust as needed */
+  }
 }

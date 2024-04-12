@@ -203,7 +203,7 @@ export const defiDummyPlaceholder = [
 export const stakingDummyPlaceholder = [
     {
         name: 'SolanaHub',
-        imgUrl: 'assets/images/solanahub-logo.png',
+        imgUrl: 'assets/images/barkwallet-logo.png',
         apy: 7+'%',
         balance: { sol: 1545, usd: 3452 },
         accumulatedRewards: 1+ ' SOL',
@@ -230,7 +230,7 @@ export const stakingDummyPlaceholder = [
     },
     {
         name: 'SolanaHub',
-        imgUrl: 'assets/images/solanahub-logo.png',
+        imgUrl: 'assets/images/barkwallet-logo.png',
         apy: 7+'%',
         balance: { sol: 1545, usd: 3452 },
         accumulatedRewards: 1+ ' SOL',
