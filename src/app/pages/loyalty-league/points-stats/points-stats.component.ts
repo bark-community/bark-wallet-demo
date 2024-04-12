@@ -2,7 +2,7 @@ import { AsyncPipe, JsonPipe, NgClass } from '@angular/common';
 import { Component, OnInit, inject } from '@angular/core';
 import { Observable, map, shareReplay, switchMap } from 'rxjs';
 import { UtilService } from 'src/app/services';
-import { LoyaltyService } from 'src/app/services/loyalty.service';
+import { LoyaltyService } from 'src/app/services/loyalty-points.service';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { IonSkeletonText } from '@ionic/angular/standalone';
 import { LoyaltyScore } from 'src/app/models';

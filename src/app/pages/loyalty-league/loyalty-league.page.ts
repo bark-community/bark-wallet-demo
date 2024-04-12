@@ -1,6 +1,6 @@
 import { AfterViewInit, Component, OnInit, TemplateRef, ViewChild, computed, effect, signal } from '@angular/core';
 import { IonicModule } from '@ionic/angular';
-import { LoyaltyService } from 'src/app/services/loyalty.service';
+import { LoyaltyService } from 'src/app/services/loyalty-points.service';
 import { MftModule } from 'src/app/shared/layouts-league/mft/mft.module';
 
 import { SolanaHelpersService, UtilService } from 'src/app/services';

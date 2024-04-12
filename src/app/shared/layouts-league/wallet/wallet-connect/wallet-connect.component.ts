@@ -9,7 +9,7 @@ import { SolanaHelpersService, UtilService, ToasterService } from 'src/app/servi
 import { WalletConnectedDropdownComponent } from '../wallet-connected-dropdown/wallet-connected-dropdown.component';
 import { addIcons } from 'ionicons';
 import { chevronDownOutline } from 'ionicons/icons';
-import { LoyaltyService } from 'src/app/services/loyalty.service';
+import { LoyaltyService } from 'src/app/services/loyalty-points.service';
 import { PortfolioService } from 'src/app/services/portfolio.service';
 import { loyalMember } from 'src/app/models';
 @Component({

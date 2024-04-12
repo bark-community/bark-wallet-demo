@@ -24,7 +24,7 @@ import { SelectStakePoolComponent } from './select-stake-pool/select-stake-pool.
 import { LiquidStakeService } from 'src/app/services/liquid-stake.service';
 import { CustomValidatorComponent } from './custom-validator/custom-validator.component';
 import { InputLabelComponent } from 'src/app/shared/components/input-label/input-label.component';
-import { LoyaltyService } from 'src/app/services/loyalty.service';
+import { LoyaltyService } from 'src/app/services/loyalty-points.service';
 import { LocalStorageService } from 'src/app/services/local-storage.service';
 @Component({
   selector: 'stake-form',

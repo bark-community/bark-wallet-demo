@@ -1,7 +1,7 @@
 import { AsyncPipe, DatePipe, DecimalPipe, PercentPipe } from '@angular/common';
 import { Component, Input, OnInit, inject, signal } from '@angular/core';
 
-import { LoyaltyService } from 'src/app/services/loyalty.service';
+import { LoyaltyService } from 'src/app/services/loyalty-points.service';
 import { IonIcon } from '@ionic/angular/standalone';
 import { IonSkeletonText } from '@ionic/angular/standalone';
 import { PrizePool } from 'src/app/models';

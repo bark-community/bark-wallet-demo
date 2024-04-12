@@ -13,10 +13,10 @@ import { PageHeaderComponent } from 'src/app/shared/components/page-header/page-
   imports: [    
     IonGrid, 
     IonButton,
-     IonContent,
+    IonContent,
     IonHeader,
-     IonButtons,
-     IonMenuButton,
+    IonButtons,
+    IonMenuButton,
     IonRow,
     IonCol,
     PageHeaderComponent
